@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#dino {
+    position: absolute;
+    top: 250px;
+    left: -230px;
+}
+
+#tree {
+    position: relative;
+    top: 7px;
+}
+
+p {
+    position: relative;
+    /* text-align: center; */
+    top: 60%;
+    z-index: 9999;
+    background-color: aliceblue;
+    width: 160px;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+#marsupilami{
+    position: relative;
+    top: -20px;
+}
+
+#wall {
+    width: 1440px;
+    height: 900px;
+}
+
+#putih {
+    position: absolute;
+    opacity: 1;
+}
+
+#game {
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    position: absolute;
+    top: 360px;
+    left: 450px;
+}
+
+#character {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 170px;
+}
+
+.animate {
+    animation: jump 500ms;
+}
+@keyframes jump {
+    0%{top: 170px;}
+    30%{top: 80px;}
+    70%{top: 80px;}
+    100%{top: 170px;}
+}
+
+#block {
+    width: 40px;
+    height: 70px;
+    position: relative;
+    top: 100px;
+    left: 480px;
+    animation: block 1s infinite linear;
+}
+
+@keyframes block {
+    0%{left:480px;}
+    100%{left: -40px;}
+}
+
+#naga {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    animation: haup 1.5s infinite linear
+}
+
+@keyframes haup {
+    0% {left: 0px;}
+    25% {left: 200px;}
+    50% {left: 0px;}
+    75% {left: -100px;}
+    100% {left: 0px;}
+}
+
+#naruto {
+    position: absolute;
+    top: 500px;
+    left: 350px;
+}
